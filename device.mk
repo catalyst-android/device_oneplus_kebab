@@ -54,5 +54,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
+# Gapps
+$(call inherit-product, vendor/gapps/basic/config.mk)
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/kebab/kebab-vendor.mk)
